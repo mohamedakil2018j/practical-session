@@ -18,8 +18,8 @@
           
            .container1{
                background-color: gray;
-            
-             
+               margin: 20px;
+               
            }
          .fullrow{
              display: flex;
@@ -31,11 +31,11 @@
             display: flex;
             flex-wrap: wrap;
             width: 50%;
-            padding: 5px;
+            padding: 10px;
            }
            .cols1, .cols2{
              display: flex;
-
+            padding: 20px;
            }
         .contain1{
             background-color: black;
@@ -67,7 +67,11 @@
         .container-fluid .container .fullrow .row1, .fullrow .row2{
                width: 100%;
        }
-      
+      }
+       @media only screen and (max-width:768px){
+        .container-fluid .container .fullrow .row1, .fullrow .row2{
+               width: 100%;
+       }
         }
         @media only screen and (max-width:576px){
           .container-fluid .container .fullrow .row1, .fullrow .row2{
@@ -82,7 +86,7 @@
           <div class="container">
 
             <div class="row bg-success mt-5">
-                <div class="card-group p-5 mt-5  bg-success">
+                <div class="card-group p-4 m-5 m-auto bg-success">
                       <div class="col-sm-4">
                          <div class="card border-success mb-4" style="max-width: 18rem;">
                             <div class="card-header bg-transparent border-success text-center">QUISQU URNA MENT</div>
@@ -116,7 +120,7 @@
                 </div>
              </div>
              <div class="container1">
-              <div class="row">
+              <div class="row p-4">
                   <h1>DONEC FACILISIS VOLUPAT LIGULA NEC EGESTAS</h1>
                   <p>Basically html is a sturcture of website/webpage
                     and css is a responsible for designing or style</p>

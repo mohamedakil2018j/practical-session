@@ -15,11 +15,11 @@
                text-align: center;
                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
            }
-           .fluid{
-               background-color: white;
-           }
-           .box{
+          
+           .container1{
                background-color: gray;
+            
+             
            }
          .fullrow{
              display: flex;
@@ -64,12 +64,13 @@
         padding:7px;
        }
      @media only screen and (min-width:1400px){
-          .fluid .box .fullrow .row1, .fullrow .row2{
+        .container-fluid .container .fullrow .row1, .fullrow .row2{
                width: 100%;
        }
+      
         }
         @media only screen and (max-width:576px){
-          .fluid .box .fullrow .row1, .fullrow .row2{
+          .container-fluid .container .fullrow .row1, .fullrow .row2{
                width: 100%;
        }
         }
@@ -77,11 +78,11 @@
     </head>
 
     <body>
-        <div class="fluid">
-          <div class="box">
+        <div class="container-fluid">
+          <div class="container">
 
             <div class="row bg-success mt-5">
-                <div class="card-group p-5 mt-5 m-auto bg-success">
+                <div class="card-group p-5 mt-5  bg-success">
                       <div class="col-sm-4">
                          <div class="card border-success mb-4" style="max-width: 18rem;">
                             <div class="card-header bg-transparent border-success text-center">QUISQU URNA MENT</div>
@@ -114,6 +115,7 @@
                      </div>
                 </div>
              </div>
+             <div class="container1">
               <div class="row">
                   <h1>DONEC FACILISIS VOLUPAT LIGULA NEC EGESTAS</h1>
                   <p>Basically html is a sturcture of website/webpage
@@ -145,6 +147,7 @@
                     </div>
                   </div>
                </div>
+            </div>
              </div>
           </div>
        </div>
